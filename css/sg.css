@@ -743,7 +743,7 @@ p.sg-text-button > a {
 section#team {
     border-bottom: 1px solid #f0f0f0;
 }
-@media (max-width: 767px) {
+@media (max-width: 991px) {
     .sg-service-description {
         margin-top: 25px;
     }
