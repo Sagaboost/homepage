@@ -35,16 +35,13 @@ $(function() {
           $('#success > .alert-success').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;")
             .append("</button>");
           $('#success > .alert-success')
-            .append("<strong>Your message has been sent. </strong>");
+            .append("<strong>Kiitos yhteydenotosta! Otamme yhteyttä mahdollisimman pian. </strong>");
           $('#success > .alert-success')
             .append('</div>');
           //clear all fields
           $('#contactForm').trigger("reset");
         },
 	error: function (xhr, status, error) {
-      	  console.log(xhr.statusText);
-      	  console.log(status);
-      	  console.log(error);
           // Fail message
           $('#success').html("<div class='alert alert-danger'>");
           $('#success > .alert-danger').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;")
