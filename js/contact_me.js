@@ -42,8 +42,9 @@ $(function() {
           $('#contactForm').trigger("reset");
         },
 	error: function (xhr, status, error) {
-	  var err = JSON.parse(xhr.responseText);
-          console.log(err.error);
+      	  console.log(xhr.statusText);
+      	  console.log(status);
+      	  console.log(error);
           // Fail message
           $('#success').html("<div class='alert alert-danger'>");
           $('#success > .alert-danger').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;")
