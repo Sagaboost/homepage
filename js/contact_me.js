@@ -41,7 +41,6 @@ $(function() {
           //clear all fields
           $('#contactForm').trigger("reset");
         },
-        error: function() {
 	error: function (xhr, status, error) {
 	  var err = JSON.parse(xhr.responseText);
           console.log(err.error);
