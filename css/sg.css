@@ -734,11 +734,11 @@ ul.social-buttons li a:hover {
 
 p.sg-text-button {
     border-radius: 10px;
-    background-color: #b4deff;
+    background-color: steelblue !important;
 }
 
 p.sg-text-button > a {
-    color: #091d46 !important;
+    color: #fff !important;
 }
 section#team {
     border-bottom: 1px solid #f0f0f0;
